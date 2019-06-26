@@ -36,6 +36,7 @@ public class addsteps {
 		driver.findElement(By.id("email")).sendKeys("kiruthi@gamil.com");
 		driver.findElement(By.xpath("//textarea[@name='addr']")).sendKeys("chennai");
 		driver.findElement(By.id("telephoneno")).sendKeys("6549871236");
+		
 		}
 	
 	@When("fill the details")
@@ -47,6 +48,7 @@ public class addsteps {
 		driver.findElement(By.id("email")).sendKeys(cr.get(2));
 		driver.findElement(By.xpath("//textarea[@name='addr']")).sendKeys(cr.get(3));
 		driver.findElement(By.id("telephoneno")).sendKeys(cr.get(4));
+		
 	    
 	}
 
@@ -58,6 +60,7 @@ public class addsteps {
 		driver.findElement(By.id("email")).sendKeys(mps.get("em"));
 		driver.findElement(By.xpath("//textarea[@name='addr']")).sendKeys(mps.get("pl"));
 		driver.findElement(By.id("telephoneno")).sendKeys(mps.get("ph"));
+		
 		
 	
 	}
